@@ -3,7 +3,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid #ccc;
+    box-shadow: #ccc 0 0 3px;
     grid-gap: 15px;
     padding: 0;
 }
@@ -13,19 +13,19 @@ header p{
     font-size: 13px;
     border-bottom: 1px solid transparent;
 }
-.actual{
-    border-bottom: 1px solid #353535;
-}
 header a{
     color:#353535;
     text-decoration: none;
     display: block;
-    padding: 20px 0;
+    padding: 23px 0;
     transition: .2s;
     
 }
 header p:hover{
     border-bottom: 1px solid #a8a8a8;
+}
+.actual{
+    border-bottom: 1px solid #353535;
 }
 header img{
     width: 100%;

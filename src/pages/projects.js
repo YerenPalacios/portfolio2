@@ -1,6 +1,7 @@
-import Header from '../../components/header/header';
+import Header from '../components/header/header';
 
-export default function Home(){
+
+export default function Projects(){
     return(
         <div>
             <Header actual="projects"/>
