@@ -11,6 +11,7 @@ header p{
     text-transform: uppercase;
     margin: 0;
     font-size: 13px;
+    transition: .2s;
     border-bottom: 1px solid transparent;
 }
 header a{
@@ -21,11 +22,19 @@ header a{
     transition: .2s;
     
 }
+header a:hover{
+    color:#ff711f
+}
 header p:hover{
-    border-bottom: 1px solid #a8a8a8;
+    color:#ff711f !important;
+    border-bottom: 1px solid #ff711f;
 }
 .actual{
     border-bottom: 1px solid #353535;
+    border-bottom: 1px solid #ff711f;
+}
+.actual a{
+    color:#ff711f;
 }
 header img{
     width: 100%;
@@ -34,4 +43,8 @@ header img{
 }
 header .logo{
     width: 50px;
+}
+header .logo:hover > img{
+    transform: rotateY(180deg);
+    transition: .8s;
 }
