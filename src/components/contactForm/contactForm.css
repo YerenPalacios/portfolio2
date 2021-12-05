@@ -13,16 +13,16 @@
 
 .contact-form .inputs{
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 12px;
 }
 .contact-form input, .contact-form textarea, .contact-form button{
     border: 1px solid #ddd;
-    padding:5px 10px;
+    padding:7px 12px;
     font-family: "Lato", Arial;
     resize:none;
     outline: none;
     transition: .4s;
-    font-size: 12px;
+    font-size: 13px;
 }
 .contact-form input::placeholder, .contact-form textarea::placeholder{
     color: #aaa
@@ -40,4 +40,12 @@ button{
 }
 button:hover{
     box-shadow: 0 0 0 20px rgba(0, 0, 0, .05)inset;
+}
+
+.contact-container{
+    display: grid;
+    grid-template-columns: 63% auto;
+    grid-gap: 20px;
+    width: 100%;
+    padding: 0 12px
 }

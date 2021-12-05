@@ -1,0 +1,24 @@
+[
+    {
+        "name": "App de clima",
+        "image": "https://yerenpalacios.github.io/devChallenges/weather%20app/clima.png",
+        "description": "App tomada de devchallenges.io que muestra el clima segun la localización indicada utilizando api de clima",
+        "link":"https://yerenpalacios.github.io/devChallenges/weather%20app/index.html"
+    },
+    {
+        "name": "App de tareas",
+        "image": "https://raw.githubusercontent.com/YerenPalacios/devChallenges/main/todo/todo.png",
+        "description": "App tomada de devchallenes.io que sirve para agregar tareas por hacer y eliminarlas, utilizando localstorage",
+        "link":"https://yerenpalacios.github.io/devChallenges/todo"
+    },
+    {
+        "name": "Proyecto 3",
+        "image": "https://d2skuhm0vrry40.cloudfront.net/2021/articles/2021-09-20-17-21/lost-in-random-zeigt-wie-wichtig-gutes-voice-acting-in-spielen-eigentlich-ist-1632154860711.jpg/EG11/resize/1200x-1/lost-in-random-zeigt-wie-wichtig-gutes-voice-acting-in-spielen-eigentlich-ist-1632154860711.jpg",
+        "description": "test description"
+    },
+    {
+        "name": "Proyecto 4",
+        "image": null,
+        "description": "test description"
+    }
+]
